@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25273E"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250sp"
+        android:background="@drawable/rounded_button"
+        android:text="Street Game"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/rounded_button"
+        android:text="Match Game"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/rounded_button"
+        android:text="Quiz Game"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+</LinearLayout>
